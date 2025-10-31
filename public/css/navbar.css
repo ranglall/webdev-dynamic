@@ -1,0 +1,98 @@
+.top-bar {
+  background: #0e3b2e ; 
+  border: 0 ;
+  box-shadow: none ;
+  margin-bottom: 0 ;
+}
+
+.top-bar .top-bar-left,
+.top-bar .top-bar-right,
+.top-bar .menu,
+.top-bar .menu li,
+.top-bar .menu li a {
+  background: transparent ;
+}
+
+.grid-container.fluid,
+.grid-x.grid-padding-x > .cell.small-12.large-12 {
+  background: transparent ;
+}
+
+.top-bar,
+#mobile-menu,
+.topnav {
+  background: #0e3b2e ;
+  padding: 6px 10px;
+}
+
+.top-bar a,
+#mobile-menu a,
+.topnav a {
+  font-family: "Poppins", sans-serif;
+  color: #e6f7ee ;   
+  text-decoration: none;
+  padding: 10px 12px;
+  display: inline-block;
+  border-radius: 6px; 
+}
+
+.top-bar a:hover,
+#mobile-menu a:hover,
+.topnav a:hover {
+  background: #145a3a ; 
+  color: #baf3cf ; 
+}
+
+.title-bar {
+  background: #0e3b2e ;
+}
+.title-bar .title-bar-title {
+  color: #e6f7ee ;
+}
+
+.top-bar .menu li ul,
+.is-dropdown-submenu {
+  background: #0e3b2e ; 
+  border: 1px solid #093224 ;
+  box-shadow: none ;
+}
+
+.top-bar .menu li ul li a,
+.is-dropdown-submenu li a {
+  color: #e6f7ee ;
+  padding: 8px 12px;
+}
+
+.top-bar .menu li ul li a:hover,
+.is-dropdown-submenu li a:hover {
+  background: #145a3a ;
+  color: #baf3cf ;
+}
+
+#mobile-menu .menu .nested {
+  background: #0e3b2e;
+  border-left: 2px solid #093224 ;
+  margin-left: 8px;
+  padding: 4px 0 4px 8px;
+}
+
+#mobile-menu .menu .nested a {
+  color: #e6f7ee ;
+}
+
+#mobile-menu .menu .nested a:hover {
+  background: #145a3a ;
+  color: #baf3cf ;
+}
+
+
+.top-bar .menu li.is-active > a{
+  background: transparent;
+  color: #e6f7ee;
+}
+
+.grid-x.grid-padding-x > .cell.small-12.large-12:first-child {
+  padding-left: 0;
+  padding-right: 0;
+}
+
