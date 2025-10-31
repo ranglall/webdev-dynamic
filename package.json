@@ -3,11 +3,13 @@
     "description": "Dynamic Server",
     "version": "1.0.0",
     "author": {
-        "name": "",
+        "name": "Breanna Ranglall",
         "email": ""
     },
     "contributors": ["Kayla Olivas", "Keng Yang"],
-    "repository": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ranglall/webdev-dynamic.git"        },
     "dependencies": {
         "express": "^5.1.0",
         "sqlite3": "^5.1.7"
